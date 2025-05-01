@@ -1,10 +1,5 @@
 body {
     text-align: center;
-    background-color: #d3ebff;
+    width: auto;
 }
 
-
-li {
-    overflow: hidden;
-    text-decoration: none;
-}
