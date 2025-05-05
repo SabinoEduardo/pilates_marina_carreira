@@ -1,25 +1,18 @@
-getComponentHeader();
-
-
-function getComponentHeader(){
-    var header_ = document.getElementsByClassName('body');
-    
-    if (header_) {
-        createHeader(header_);
+class Header extends HTMLElement {
+    constructor (){
+        super();
     }
 
-}
-
-
-function createHeader(header_){
-    for (const h of header_) {
-        var header = document.createElement('header');
-        var img = document.createElement('div');
-        img.innerHTML = '<img src="../files/log2.png" alt="Descrição da imagem" width="200" height="120px">';
-        header.appendChild(img);
-        header.style.backgroundColor = '#5f809b';
-        header.style.textAlign = 'center'
-        h.appendChild(header); 
+    connectedCallback(){
+        this.innerHTML = 
+            `
+            <header class="header">
+                <a href="home.html" class="link">
+                    <img src="../files/log2.png" alt="logomarca"  class="img-logo-header">
+                </a> 
+            </header>   
+            `
     }
-    
 }
+
+customElements.define('header-component', Header)

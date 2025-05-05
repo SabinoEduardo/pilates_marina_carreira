@@ -1,0 +1,83 @@
+hr {
+    margin: 10px 40px;
+    opacity: 0.5;
+}
+
+.main-home {
+    background-color: #d3ebff;
+    overflow: hidden;
+
+}
+
+.invite-paragraph {
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.invite button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #586169;
+    padding: 15px 50px;
+    margin: 25px;
+    border: none;
+    border-radius: 20px;
+}
+
+.invite button:hover{
+    background-color: #10181f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.exercise-img {
+    margin: 40px;
+    display: inline-block;
+}
+
+.description-exercise {
+    font-size: 19px;
+    padding: 10px;
+}
+
+.services h1 {
+    color: #322323;
+    font-size: 30px;
+}
+
+.service-icone {
+    margin-top: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: inline-block;
+}
+
+.service-icone img {
+    width: 200px;
+    padding: 30px;
+    border-bottom: solid 1px rgba(76, 89, 90, 0.179);
+}
+
+.service-name {
+    font-size: 19px;
+    padding: 15px;
+}
+
+
+.btn-know-more {
+    margin: 40px;
+
+}
+
+.btn-know-more a{
+    background-color: #586169;
+    padding: 15px 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+}
