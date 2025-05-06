@@ -1,0 +1,56 @@
+.main-services {
+    color: #2f1b1b;
+    padding: 25px 20px;
+    background-color: #e3eef7;
+    
+}
+
+.main-services h1{
+    font-size: 45px;
+}
+
+
+.main-services section{
+    color: #2f1b1b;
+    margin: 5px;
+    padding: 5px 25px;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+
+.agendar {
+    margin: 40px;
+}
+
+.agendar a {
+    background-color: #586169;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.agendar a:hover{
+    background-color: #10181f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .main-services h2{
+        font-size: 25x;
+        font-size: 25px;
+    }
+    
+    
+    
+}

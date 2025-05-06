@@ -8,9 +8,9 @@ class Nav extends HTMLElement {
             `
             <nav class="nav">
                 <div class="nav-links">
-                    <a href="about.html" class="link">Sobre</a>
-                    <a href="services.html" class="link">Serviços</a>
-                    <a href="articles.html" class="link">Artigos</a>
+                    <a href="about.html" class="nav-link">Sobre</a>
+                    <a href="services.html" class="nav-link">Serviços</a>
+                    <a href="articles.html" class="nav-link">Artigos</a>
                 </div>
             </nav>
             `

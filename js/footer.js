@@ -17,8 +17,12 @@ class Footer extends HTMLElement {
                             <a href="services.html">Serviços</a>
                             <a href="articles.html">Artigos</a>   
                         </ul>
-                        <a href=""><img src="../files/instagram.png" alt="procedimento 3"></a>
-                        <a href=""><img src="../files/whatsapp.png" alt="procedimento 3"></a>
+                        <a href="https://www.instagram.com/pilatesmarinacarreira/" target="_blank">
+                            <img src="../files/icone_instagram.png" alt="icone-instagram">
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=5531993359110&text&type=phone_number&app_absent=0" target="_blank">
+                            <img src="../files/whatsapp.png" alt="icone-whatsapp">
+                        </a>
                         
                     </div>
 

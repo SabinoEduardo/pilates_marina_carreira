@@ -8,7 +8,7 @@ class Header extends HTMLElement {
             `
             <header class="header">
                 <a href="home.html" class="link">
-                    <img src="../files/log2.png" alt="logomarca"  class="img-logo-header">
+                    <img src="../files/logo.png" alt="logomarca">
                 </a> 
             </header>   
             `

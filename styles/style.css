@@ -1,3 +1,22 @@
+:root {
+    --font-color: #2f1b1b;
+    --backgrund_color_header:  #5f809b;
+    --backgrounf_color_nav: #466782;
+    --background_color_main: #e3eef7;
+    --background_color_button: #586169;
+    --background_color_button_hoover: #10181f;
+    --cinza_service_border: #4c595a2e;
+    --backgroung_font_color_nav: #4a5b6a;
+    --color_font_nav: #dee3ee;
+    --color_font_button_agendar: #ffffff;
+    --color_font_nav_hoover: #3a3a7e;
+    --background_color_nav_hoover: #ebeff3;
+    
+
+}
+
+/* Estilo do Geral */
+
 * {
 
     box-sizing: border-box;
@@ -5,7 +24,433 @@
 
 body {
     margin: 0;
+    color: var(--font-color);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: var(--background_color_main);
+}
+
+/* Estile do Header */
+
+.header {
+    background-color: var(--backgrund_color_header);
+    padding: 20px;
+}
+
+
+.header img {
+    width: 250px;
+}
+
+/* Estile do NavBar */
+.nav {
+    background-color: var(--backgrounf_color_nav);
+    padding: 10px;  
+}
+
+.nav-links a{
+    display:inline-block;
+    font-size: 15px; 
+    text-decoration: none;
+    background-color: var(--backgroung_font_color_nav);
+    border: none;
+    border-radius: 5px; 
+    margin: 15px 10px;
+    padding: 7.5px 15px;
+}
+
+.nav-link:link {
+    color: var(--color_font_nav);
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--color_font_nav_hoover);
+    background-color: var(--background_color_nav_hoover);
+    transition: 1s;
+}
+
+
+/* Estilo do Main da Home page */
+
+.main-home {
+    overflow: hidden;
+}
+
+hr {
+    margin: 50px 20px 20px 30px;
+    opacity: 0.5;
+}
+
+#text {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 25px;
+    margin: 25px;
+}
+
+.button-agendar {
+    margin: 20px;
+}
+
+.button-agendar a {
+    color: var(--color_font_button_agendar);
+    background-color: var(--background_color_button);
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.button-agendar a:hover{
+    background-color: var(--background_color_button_hoover);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.exercise-img {
+    margin: 20px 40px;
+    display: inline-block;
+}
+
+.exercise-img img{
+    width: 250px;
+    height: 350px;
+    border: none;
+    border-radius: 7px;
+}
+
+.description-exercise {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 25px;
+}
+
+.services h2 {
+    font-size: 40px;
+}
+
+.service-icone {
+    display: inline-block;
+    margin: 0 50px;
+    padding: 25px;
+}
+
+
+.service-icone img {
+    margin: 0 25px;
+    width: 85px;
+    border-bottom: solid 1px #4c595a2e;
+}
+
+.service-name {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+
+.btn-know-more {
+    margin: 40px;
+}
+
+.btn-know-more a{
+    background-color: var(--background_color_button);
+    padding: 15px 50px;
+    color: var(--color_font_button_agendar);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-know-more a:hover{
+    background-color: var(--background_color_button_hoover);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* Estilo Main About */
+
+.main-about .content {
+    margin: 20px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.main-about .content p {
+    margin-bottom: 25px;
+}
+
+.button-agendar {
+    margin: 50px 10px 25px;
+}
+
+#button-agendar-about {
     text-align: center;
 }
 
+
+/* Estilo Main Services */
+
+.main-services section{
+    margin:5px 20px;
+    padding: 5px 20px;
+    font-size: 15px;
+    text-align: justify;
+    
+}
+
+.main-services h1{
+    font-size: 40px;
+}
+
+.main-services h2{
+    font-size: 20px;
+}
+
+#button-agendar-service {
+    margin-bottom: 50px;
+}
+
+/* Estilo Main Articles */
+
+.main-articles {
+    padding: 25px;
+}
+
+.main-articles h1{
+    font-size: 40px;
+}
+
+.main-articles .article-title {
+    font-size: 5px;
+    text-align: justify;
+    margin: 5px 20px;
+    padding: 10px 20px;
+    border-top: solid 2px #807474;
+}
+
+
+.main-articles .article{
+    color: var(--font-color);
+}
+
+
+.main-articles .article:link{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-articles .article:hover {
+    font-size: 20px;
+}
+
+/* Estilo do Footer */
+
+.footer {
+    background-color: var(--backgrund_color_header);
+    overflow: hidden;
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin: 10px 25px;
+    padding: 10px;
+}
+
+
+ul {
+    padding: 10px 0;
+    margin-bottom:5px;
+    margin-top: 5px;
+}
+
+.list-links-quickly a{
+    display: inline-block;
+    font-size: 15px;
+    color: var(--color_font_nav);
+    background-color: #6b89a1;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+.list-links-quickly a:hover {
+    color: var(--color_font_nav_hoover);
+    background-color: var(--background_color_nav_hoover);
+    transition: 1s;
+}
+
+.footer a {
+    cursor: pointer;
+}
+
+.footer img {
+    margin: 5px 10px;
+}
+
+.endereco {
+    margin: 25px;
+}
+
+.endereco p {
+    font-size: 17.50px;
+}
+
+iframe {
+    height: 350px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.copywriter {
+    font-size: 12px;
+    padding: -5px;
+    overflow: hidden;
+    background-color: #3d5a72;
+}
+
+/* Estilos quando a largura da tela for igla ou menor que 340 pixels */
+
+@media screen and (max-width: 340px) {
+
+    /* Header */
+    .header img {
+        width: 150px;
+    }
+
+    /* Nav */
+    .nav-links a{
+        display: block;
+        padding: 5px;
+        margin: 5px;
+    } 
+
+    /* Home */
+    #text {
+        font-size: 15px;
+        margin: 15px;
+    }
+    
+    .exercise-img img{
+        width: 180px;
+        height: 250px;
+    }
+
+    .exercise-img {
+        margin: 20px;
+    }
+
+    .description-exercise {
+        font-size: 15px;
+    }
+
+    .button-agendar a {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .services h2 {
+        font-size: 30px;
+    }
+
+    .service-icone {
+        margin: 10px;
+    }
+    
+    .service-icone img {
+        margin: 10px;
+        width: 50px;
+    }
+
+    .service-name {
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    .btn-know-more a{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+
+    /* Estilo do About */
+    .main-about .content {
+        margin: 10px;
+        padding: 5px;
+        font-size: 12.50px;
+    }
+
+    /* Service */
+    .main-services section{
+        font-size: 12.50px;
+        margin: 0px 20px;
+        padding: 5px 20px;
+        
+    }
+    
+    .main-services h1{
+        font-size: 30px;
+    }
+    
+    .main-services h2{
+        font-size: 15px;
+    }
+
+    /* Articles */
+
+    .main-articles {
+        padding: 25px;
+    }
+    
+    .main-articles h1{
+        font-size: 30px;
+    }
+    
+    .main-articles h2 {
+        font-size: 15px;
+    }
+
+
+    /* Footer*/
+    .footer h3 {
+        font-size: 15px;
+    }
+
+    .list-links-quickly a{
+        font-size: 15px;
+        display: block;
+        margin: 10px 5px;
+        padding: 5px;
+    }
+
+    .endereco p {
+        font-size: 12px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 200px;
+        border: none;
+        border-radius: 3px;       
+    }  
+
+    .copywriter {
+        font-size: 10px;
+        background-color: #3d5a72;
+    }
+
+    
+    
+    
+}

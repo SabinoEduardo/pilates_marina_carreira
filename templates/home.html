@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/nav.css">
-    <link rel="stylesheet" href="../styles/main_home.css">
-    <link rel="stylesheet" href="../styles/footer.css">
     <title>Home</title>
 </head>
 
@@ -20,49 +16,41 @@
 
         <section class="invite">
             <div class="invite-paragraph">
-                <p class="first">Aulas personalizadas com foco em alívio de dores, melhora da postura e
-                    qualidade de vida. 
-                </p>
-    
-                <p class="second">
-                    Técnica, segurança e cuidado em cada movimento.
-                </p>
-    
-                <p class="third">Aqui cada sessão é planejada para atender suas necessidades 
-                    com acolhimento e resultados reais. 
-                </p>
+                <div class="text" id="text"></div>
             </div>
 
-            <button type="button">
-                Agende Sua Sessão
-            </button>
+            <div class="button-agendar">
+                <a href="https://api.whatsapp.com/send/?phone=5531993359110&text&type=phone_number&app_absent=0" target="_blank">Agende sua sessão</a>
+            </div>
         </section>
 
         <hr>
 
         <section class="exercises">
             <div class="exercise-img">
-                <img src="" alt="procedimento 1">
-                <div class="description-exercise">procedimento 1</div>
+                <img src="../files/exercicio1.jpeg" alt="procedimento 1">
             </div>
 
             <div class="exercise-img">
-                <img src="" alt="procedimento 2">
-                <div class="description-exercise">procedimento 2</div>
+                <img src="../files/exercicio2.jpeg" alt="procedimento 2">
             </div>
 
             <div class="exercise-img">
-                <img src="" alt="procedimento 3">
-                <div class="description-exercise">procedimento 3</div>
+                <img src="../files/exercicio3.jpeg" alt="procedimento 3">
+            </div>
+
+            <div class="description-exercise">
+                <p>Aulas individuais e em grupo com no máximo 3 alunos</p>
+                <p>Atendimento com técnica, segurança e cuidado em cada movimento</p>
             </div>
         </section>
 
         <hr>
 
         <section class="services">
-            <h1>Serviços</h1>
+            <h2>Serviços</h2>
 
-            <div class="service-icone">
+            <div class="service-icone"  id="domiciliar">
                 <img src="../files/pilates.png" alt="pilates">
                 <div class="service-name">Pilates</div>
             </div>
@@ -74,11 +62,13 @@
 
             <div class="service-icone">
                 <img src="../files/fisio_domociliar.png" alt="fisio-domiciliar">
-                <div class="service-name">Fisioterapia Domiciliar</div>
+                <div class="service-name">Domiciliar</div>
             </div>
 
+           
+
             
-            
+            <a href="http://" target="_blank" rel="noopener noreferrer"></a>
         </section>
 
         <div class="btn-know-more">
@@ -92,6 +82,7 @@
     
     <script src="../js/header.js"></script>
     <script src="../js/nav.js"></script>
+    <script src="../js/main_invite.js"></script>
     <script src="../js/footer.js"></script>
 </body>
 </html>

@@ -4,65 +4,89 @@ hr {
 }
 
 .main-home {
-    background-color: #d3ebff;
+    background-color: #e3eef7;
     overflow: hidden;
 
 }
 
 .invite-paragraph {
-    margin: 10px 20px;
-    padding: 10px;
+    margin: 40px;
+    padding: 40px;
 }
 
-.invite button {
+#text {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #2f1b1b;
+}
+
+
+.agendar {
+    margin: 40px;
+}
+
+.agendar a {
+    background-color: #586169;
+    padding: 15px 20px;
+    color: #ffffff;
     font-size: 20px;
     font-weight: bold;
-    color: #ffffff;
-    background-color: #586169;
-    padding: 15px 50px;
-    margin: 25px;
+    text-decoration: none;
     border: none;
     border-radius: 20px;
+
 }
 
-.invite button:hover{
+.agendar a:hover{
     background-color: #10181f;
     transition: 0.5s;
     cursor: pointer;
 }
-
 
 .exercise-img {
     margin: 40px;
     display: inline-block;
 }
 
+.exercise-img img{
+    width: 352px;
+    height: 430px;
+    border: none;
+    border-radius: 7px;
+}
+
 .description-exercise {
-    font-size: 19px;
-    padding: 10px;
+    font-size: 20px;
+    color: #2f1b1b;
+    margin: 0 50px 40px 50px;
+    padding: 5px;
+    font-weight: bolder;
+    transition: 2s linear 2s;
 }
 
 .services h1 {
-    color: #322323;
+    color: #2f1b1b;;
     font-size: 30px;
 }
 
 .service-icone {
-    margin-top: 25px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
     display: inline-block;
 }
 
 .service-icone img {
-    width: 200px;
-    padding: 30px;
-    border-bottom: solid 1px rgba(76, 89, 90, 0.179);
+    width: 130px;
+    padding: 35px;
+    border-bottom: solid 1px #4c595a2e;
 }
 
 .service-name {
-    font-size: 19px;
+    font-size: 18px;
+    font-weight: bold;
     padding: 15px;
+    color: #2f1b1b;
 }
 
 
@@ -80,4 +104,28 @@ hr {
     text-decoration: none;
     border: none;
     border-radius: 20px;
+}
+
+.btn-know-more a:hover{
+    background-color: #10181f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    #text {
+        font-size: 20px;
+        margin: 30px;
+    }
+    
+    .exercise-img img{
+        width: 250px;
+        height: 280px;
+    }
+
+    .exercise-img {
+        margin: 20px;
+    }
+    
 }
