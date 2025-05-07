@@ -7,8 +7,8 @@ class Header extends HTMLElement {
         this.innerHTML = 
             `
             <header class="header">
-                <a href="home.html" class="link">
-                    <img src="../files/logo.png" alt="logomarca">
+                <a href="index.html" class="link">
+                    <img src="../img/logo.png" alt="logomarca">
                 </a> 
             </header>   
             `

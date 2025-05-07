@@ -12,16 +12,16 @@ class Footer extends HTMLElement {
                     <div class="links-rapidos">
                         <h3>Links Rápidos</h3>
                         <ul class="list-links-quickly">
-                            <a href="home.html">Home</a>
+                            <a href="index.html">Home</a>
                             <a href="about.html">Sobre</a>
                             <a href="services.html">Serviços</a>
                             <a href="articles.html">Artigos</a>   
                         </ul>
                         <a href="https://www.instagram.com/pilatesmarinacarreira/" target="_blank">
-                            <img src="../files/icone_instagram.png" alt="icone-instagram">
+                            <img src="../img/icone_instagram.png" alt="icone-instagram">
                         </a>
                         <a href="https://api.whatsapp.com/send/?phone=5531993359110&text&type=phone_number&app_absent=0" target="_blank">
-                            <img src="../files/whatsapp.png" alt="icone-whatsapp">
+                            <img src="../img/whatsapp.png" alt="icone-whatsapp">
                         </a>
                         
                     </div>
