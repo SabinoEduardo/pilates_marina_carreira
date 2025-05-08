@@ -8,6 +8,8 @@ class Nav extends HTMLElement {
         var caminho = window.location.pathname
         var index_page = "index.html"
 
+        alert(caminho)
+
         if (caminho.includes(index_page)) {
 
             this.innerHTML = 
