@@ -6,9 +6,9 @@ class Header extends HTMLElement {
     connectedCallback(){
         
         var caminho = window.location.pathname
-        var index_page = "/C:/Users/bilso/site_pilates/studio_pilates/index.html"
+        var index_page = "index.html"
 
-        if (caminho==index_page){
+        if (caminho.includes(index_page)){
             //alert(caminho)
 
             this.innerHTML = 
