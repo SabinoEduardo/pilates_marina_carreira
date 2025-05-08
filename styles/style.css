@@ -49,9 +49,11 @@ body {
 }
 
 .nav-links a{
-    display:inline-block;
-    font-size: 15px; 
+    color: var(--color_font_nav);
+    font-size: 15px;
+    font-weight: bold;
     text-decoration: none;
+    display:inline-block;
     background-color: var(--backgroung_font_color_nav);
     border: none;
     border-radius: 5px; 
@@ -59,10 +61,6 @@ body {
     padding: 7.5px 15px;
 }
 
-.nav-link:link {
-    color: var(--color_font_nav);
-    font-weight: bold;
-}
 
 .nav-link:hover {
     color: var(--color_font_nav_hoover);
