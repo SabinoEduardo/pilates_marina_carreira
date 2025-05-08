@@ -10,7 +10,7 @@ class Nav extends HTMLElement {
 
         alert(caminho)
 
-        if (caminho.includes(index_page)) {
+        if (caminho.includes(index_page) || caminho=="/") {
 
             this.innerHTML = 
             `
