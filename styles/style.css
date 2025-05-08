@@ -1,5 +1,5 @@
 :root {
-    --font-color: #2f1b1b;
+    --font-color: #162A3B;
     --backgrund_color_header:  #5f809b;
     --backgrounf_color_nav: #466782;
     --background_color_main: #e3eef7;
@@ -90,7 +90,7 @@ hr {
     margin: 20px;
 }
 
-.button-agendar a {
+.button-agendar a{
     color: var(--color_font_button_agendar);
     background-color: var(--background_color_button);
     padding: 15px 20px;
@@ -185,7 +185,7 @@ hr {
     margin-bottom: 25px;
 }
 
-.button-agendar {
+.button-agendar { 
     margin: 50px 10px 25px;
 }
 
@@ -338,6 +338,16 @@ iframe {
         font-size: 15px;
         margin: 15px;
     }
+
+    .invite .button-agendar {
+        margin: 10px;
+    }
+
+    .button-agendar a{
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 5px;
+    }
     
     .exercise-img img{
         width: 180px;
@@ -350,11 +360,6 @@ iframe {
 
     .description-exercise {
         font-size: 15px;
-    }
-
-    .button-agendar a {
-        font-size: 15px;
-        padding: 10px;
     }
 
     .services h2 {
