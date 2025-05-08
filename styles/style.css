@@ -61,7 +61,6 @@ body {
     padding: 7.5px 15px;
 }
 
-
 .nav-link:hover {
     color: var(--color_font_nav_hoover);
     background-color: var(--background_color_nav_hoover);
