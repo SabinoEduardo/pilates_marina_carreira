@@ -415,7 +415,8 @@ iframe {
     }
     
     .main-articles h3{
-        font-size: 15px;
+        font-size: 12.50px;
+        text-align:start;
     }
 
 
