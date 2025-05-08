@@ -319,7 +319,7 @@ iframe {
 
 /* Estilos quando a largura da tela for igla ou menor que 340 pixels */
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 680px) {
 
     /* Header */
     .header img {
@@ -381,7 +381,7 @@ iframe {
     }
 
 
-    /* Estilo do About */
+    /* About */
     .main-about .content {
         margin: 10px;
         padding: 5px;
@@ -415,7 +415,7 @@ iframe {
     }
     
     .main-articles h3{
-        font-size: 12.50px;
+        font-size: 15px;
         text-align:start;
     }
 
