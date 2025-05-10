@@ -6,7 +6,7 @@ var list_text = [
 var index_list = 0;
 
 
-var current_text = document.getElementById('text');
+var current_text = document.getElementById("invite-paragraph")
 current_text.innerHTML = list_text[index_list]
 
 function changeText(){

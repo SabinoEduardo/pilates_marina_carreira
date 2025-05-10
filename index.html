@@ -12,15 +12,13 @@
     <header-component></header-component>
     <nav-component></nav-component>
     
-    <main class="main-home">
+    <main onclick="closeSidebar()" class="main-home">
 
         <section class="invite">
-            <div class="invite-paragraph">
-                <div class="text" id="text"></div>
-            </div>
+            <div class="invite-paragraph" id="invite-paragraph"></div>
 
             <div class="button-agendar">
-                <a href="https://api.whatsapp.com/send/?phone=5531993359110&text&type=phone_number&app_absent=0" target="_blank">Agende sua sessão</a>
+                <a href="https://api.whatsapp.com/send/?phone=5531993359110&text&type=phone_number&app_absent=0" target="_blank">Agende Sua Sessão</a>
             </div>
         </section>
 
@@ -65,11 +63,11 @@
                 <div class="service-name">Domiciliar</div>
             </div>
 
-        </section>
+            <div class="btn-know-more">
+                <a href="templates/services.html">Saiba Mais</a>
+            </div>
 
-        <div class="btn-know-more">
-            <a href="templates/services.html">Saiba Mais</a>
-        </div>
+        </section>
         
     </main>
 
@@ -77,6 +75,7 @@
     
     <script src="js/header.js"></script>
     <script src="js/nav.js"></script>
+    <script src="js/nav_sidebar.js"></script>
     <script src="js/main_invite.js"></script>
     <script src="js/footer.js"></script>
 </body>
