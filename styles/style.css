@@ -207,8 +207,8 @@ hr {
 }
 
 .content{
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     font-size: 15px;
     text-align: justify;
 }
@@ -220,10 +220,12 @@ hr {
 
 .content h2 {
     font-size: 25px;
+    text-align: left;
 }
 
 .content h3 {
     font-size: 20px;
+    text-align: left;
 }
 
 
@@ -245,7 +247,6 @@ hr {
 }
 
 .main-services h1{
-    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -467,11 +468,11 @@ iframe {
     /* Font-size em todas as páginas exceto a home*/
     
     .content h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .content h2 {
-    font-size: 20px;
+    font-size: 18px;
     }
 
     .content h3 {
