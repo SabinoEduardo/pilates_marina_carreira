@@ -23,7 +23,7 @@ class Nav extends HTMLElement {
                     <a href="templates/about.html" class="nav-link">Sobre</a>
                     <a href="templates/services.html" class="nav-link">Serviços</a>
                     <a href="templates/articles.html" class="nav-link">Artigos</a>
-                    <a href="templates/depoimentos.html" class="nav-link">Depoimentos</a>
+                    <a href="templates/depoimentos.html" class="nav-link" style="display:none">Depoimentos</a>
                 </div>
             </nav>
             `
@@ -42,7 +42,7 @@ class Nav extends HTMLElement {
                     <a href="about.html" class="nav-link">Sobre</a>
                     <a href="services.html" class="nav-link">Serviços</a>
                     <a href="articles.html" class="nav-link">Artigos</a>
-                    <a href="depoimentos.html" class="nav-link">Depoimentos</a>
+                    <a href="depoimentos.html" class="nav-link" style="display:none">Depoimentos</a>
                 </div>
             </nav>
             `

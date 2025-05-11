@@ -189,62 +189,79 @@ hr {
 }
 
 
-/* Estilo Main About */
+/* espaçamento do conteudo d todas as páginas exceto o index */
 
-.main-about .content {
+
+.btn-voltar {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-voltar:hover {
+    cursor: pointer;
+}
+
+#main {
+    padding: 5px;
+    background-color: var(--background_color_main);
+}
+
+.content{
     margin: 20px;
     padding: 20px;
     font-size: 15px;
     text-align: justify;
 }
 
-.main-about .content p {
-    margin-bottom: 25px;
-}
-
-
-#button-agendar-about {
+.content h1 {
+    font-size: 40px;
     text-align: center;
 }
 
+.content h2 {
+    font-size: 25px;
+}
+
+.content h3 {
+    font-size: 20px;
+}
+
+
+/* Estilo Main About */
+
+.main-about .content p {
+    padding: 5px;
+}
+
+
+.button-agendar {
+    text-align: center;
+}
 
 /* Estilo Main Services */
 
 .main-services section{
-    margin:5px 20px;
-    padding: 5px 20px;
-    font-size: 15px;
-    text-align: justify;
-    
+    padding: 5px;
 }
 
 .main-services h1{
-    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
-.main-services h2{
-    font-size: 20px;
-}
-
-#button-agendar-service {
-    margin-bottom: 50px;
-}
 
 /* Estilo Main Articles */
 
-.main-articles {
-    padding: 25px;
-}
-
 .main-articles h1{
     font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .main-articles .article-title {
     font-size: 5px;
     text-align: justify;
-    margin: 5px 20px;
-    padding: 10px 20px;
+    padding: 5px;
     border-top: solid 2px #807474;
 }
 
@@ -262,6 +279,26 @@ hr {
 .main-articles .article:hover {
     font-size: 20px;
 }
+
+/* Estilos das Páginas de artigos */
+
+.aticle-text {
+    margin-bottom: 50px;
+}
+
+
+.aticle-text ul{
+    list-style-type: disc;
+    list-style-position:inside
+}
+
+
+/* Estilo do Depoimentos */
+
+.depoimento {
+    padding: 10px;
+}
+
 
 /* Estilo do Footer */
 
@@ -345,14 +382,13 @@ iframe {
     .header {
         display: flex;
         justify-content: space-between;
-        padding: 0 10%;
+        padding: 0 15%;
         align-items: center;
     }
 
     .btn-icon-header{
         display: block;
     } 
-
 
     /* Nav */
 
@@ -409,10 +445,6 @@ iframe {
         font-size: 15px;
     }
 
-    .services h2 {
-        font-size: 25px;
-    }
-
     .service-icone {
         margin: 10px;
     }
@@ -432,44 +464,24 @@ iframe {
         font-size: 15px;
     }
 
-
-    /* About */
-    .main-about .content {
-        margin: 10px;
-        padding: 5px;
-        font-size: 12.50px;
-    }
-
-    /* Service */
-    .main-services section{
-        font-size: 12.50px;
-        margin: 0px 20px;
-        padding: 5px 20px;
-        
-    }
+    /* Font-size em todas as páginas exceto a home*/
     
-    .main-services h1{
+    .content h1{
         font-size: 30px;
     }
-    
-    .main-services h2{
+
+    .content h2 {
+    font-size: 20px;
+    }
+
+    .content h3 {
         font-size: 15px;
     }
 
-    /* Articles */
+    .content p{
+        font-size: 12.50px;
+    }
 
-    .main-articles {
-        padding: 25px;
-    }
-    
-    .main-articles h1{
-        font-size: 30px;
-    }
-    
-    .main-articles h3{
-        font-size: 15px;
-        text-align:start;
-    }
 
 
     /* Footer*/
