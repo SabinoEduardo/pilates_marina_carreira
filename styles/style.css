@@ -195,6 +195,7 @@ hr {
 .btn-voltar {
     background-color: transparent;
     border: none;
+    color: #3d5a72;;
 }
 
 .btn-voltar:hover {
@@ -227,6 +228,7 @@ hr {
     font-size: 20px;
     text-align: left;
 }
+
 
 
 /* Estilo Main About */
@@ -293,6 +295,10 @@ hr {
     list-style-position:inside
 }
 
+.aticle-text li{
+    font-size: 15px;
+}
+
 
 /* Estilo do Depoimentos */
 
@@ -317,7 +323,6 @@ hr {
 
 ul {
     padding: 5px;
-
 }
 
 .list-links-quickly a{
@@ -377,7 +382,7 @@ iframe {
 /* Estilos quando a largura da tela for igla ou menor que 340 pixels */
 
 @media screen and (max-width: 680px) {
-
+    
     /* Header */
 
     .header {
@@ -483,6 +488,9 @@ iframe {
         font-size: 12.50px;
     }
 
+    .content ul li{
+    font-size: 12.50px; 
+    }
 
 
     /* Footer*/
